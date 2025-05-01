@@ -1,0 +1,13 @@
+app = 'hur-support-bot'
+primary_region = 'waw'
+
+[build]
+  builder = 'paketobuildpacks/builder:base'
+
+[env]
+  PORT = '8080'
+
+[[vm]]
+  memory = '512mb'
+  cpu_kind = 'shared'
+  cpus = 1
