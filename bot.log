@@ -1,0 +1,232 @@
+2025-04-30 12:24:55,061 - INFO - bot.database.db - Database connection pool initialized successfully
+2025-04-30 12:24:55,102 - INFO - bot.database.db - Successfully initialized database.
+2025-04-30 12:24:55,106 - INFO - aiogram.dispatcher - Start polling
+2025-04-30 12:24:55,843 - INFO - aiogram.dispatcher - Run polling for bot @testkotyk21_bot id=8114865172 - 'testbot'
+2025-04-30 12:24:59,854 - INFO - aiogram.event - Update id=559761490 is handled. Duration 343 ms by bot id=8114865172
+2025-04-30 12:25:18,779 - INFO - aiogram.event - Update id=559761491 is handled. Duration 108 ms by bot id=8114865172
+2025-04-30 12:25:23,002 - INFO - bot.database.db - Successfully fetched last 10 appeals.
+2025-04-30 12:25:23,184 - INFO - aiogram.event - Update id=559761492 is handled. Duration 187 ms by bot id=8114865172
+2025-04-30 12:25:33,406 - INFO - aiogram.event - Update id=559761493 is handled. Duration 61 ms by bot id=8114865172
+2025-04-30 12:25:34,826 - INFO - aiogram.event - Update id=559761494 is handled. Duration 62 ms by bot id=8114865172
+2025-04-30 12:25:37,927 - INFO - aiogram.event - Update id=559761495 is handled. Duration 328 ms by bot id=8114865172
+2025-04-30 12:25:39,441 - INFO - bot.database.db - Successfully saved appeal.
+2025-04-30 12:25:39,773 - INFO - bot.helpers.helpers - Successfully notified channel about appeal 1af199db-4f8a-4179-898f-719f03bc013f
+2025-04-30 12:25:40,176 - INFO - aiogram.event - Update id=559761496 is handled. Duration 750 ms by bot id=8114865172
+2025-04-30 12:26:07,201 - INFO - aiogram.event - Update id=559761497 is handled. Duration 187 ms by bot id=8114865172
+2025-04-30 12:26:20,042 - INFO - aiogram.dispatcher - Polling stopped
+2025-04-30 12:26:20,322 - INFO - bot.database.db - Database connection pool closed successfully
+2025-04-30 12:26:20,323 - INFO - aiogram.dispatcher - Polling stopped for bot @testkotyk21_bot id=8114865172 - 'testbot'
+2025-04-30 12:42:48,851 - INFO - bot.database.db - Database connection pool initialized successfully
+2025-04-30 12:42:48,859 - INFO - bot.database.db - Successfully initialized database.
+2025-04-30 12:42:48,861 - INFO - aiogram.dispatcher - Start polling
+2025-04-30 12:42:49,173 - INFO - aiogram.dispatcher - Run polling for bot @testkotyk21_bot id=8114865172 - 'testbot'
+2025-04-30 12:42:49,863 - INFO - aiogram.event - Update id=559761498 is handled. Duration 155 ms by bot id=8114865172
+2025-04-30 12:42:53,197 - INFO - aiogram.event - Update id=559761499 is handled. Duration 530 ms by bot id=8114865172
+2025-04-30 12:42:58,556 - INFO - aiogram.event - Update id=559761500 is handled. Duration 62 ms by bot id=8114865172
+2025-04-30 12:42:59,924 - INFO - aiogram.event - Update id=559761501 is handled. Duration 78 ms by bot id=8114865172
+2025-04-30 12:43:02,988 - INFO - aiogram.event - Update id=559761502 is handled. Duration 266 ms by bot id=8114865172
+2025-04-30 12:43:05,250 - INFO - aiogram.event - Update id=559761503 is handled. Duration 281 ms by bot id=8114865172
+2025-04-30 12:43:06,848 - INFO - aiogram.event - Update id=559761504 is handled. Duration 436 ms by bot id=8114865172
+2025-04-30 12:43:08,048 - INFO - aiogram.event - Update id=559761505 is handled. Duration 312 ms by bot id=8114865172
+2025-04-30 12:43:11,283 - INFO - aiogram.event - Update id=559761506 is handled. Duration 577 ms by bot id=8114865172
+2025-04-30 12:43:15,292 - INFO - aiogram.event - Update id=559761507 is handled. Duration 266 ms by bot id=8114865172
+2025-04-30 12:43:16,677 - INFO - aiogram.event - Update id=559761508 is handled. Duration 234 ms by bot id=8114865172
+2025-04-30 12:43:17,564 - INFO - aiogram.event - Update id=559761509 is handled. Duration 62 ms by bot id=8114865172
+2025-04-30 12:43:35,458 - INFO - aiogram.event - Update id=559761510 is handled. Duration 63 ms by bot id=8114865172
+2025-04-30 12:43:37,680 - INFO - aiogram.event - Update id=559761511 is handled. Duration 281 ms by bot id=8114865172
+2025-04-30 12:43:38,898 - INFO - aiogram.event - Update id=559761512 is handled. Duration 202 ms by bot id=8114865172
+2025-04-30 12:43:47,355 - INFO - aiogram.event - Update id=559761513 is handled. Duration 296 ms by bot id=8114865172
+2025-04-30 12:43:48,811 - INFO - aiogram.dispatcher - Polling stopped
+2025-04-30 12:43:49,074 - INFO - bot.database.db - Database connection pool closed successfully
+2025-04-30 12:43:49,075 - INFO - aiogram.dispatcher - Polling stopped for bot @testkotyk21_bot id=8114865172 - 'testbot'
+2025-04-30 13:11:24,072 - INFO - bot.database.db - Database connection pool initialized successfully
+2025-04-30 13:11:24,079 - INFO - bot.database.db - Successfully initialized database.
+2025-04-30 13:11:24,081 - INFO - aiogram.dispatcher - Start polling
+2025-04-30 13:11:24,578 - INFO - aiogram.dispatcher - Run polling for bot @testkotyk21_bot id=8114865172 - 'testbot'
+2025-04-30 13:11:27,093 - INFO - aiogram.event - Update id=559761514 is handled. Duration 125 ms by bot id=8114865172
+2025-04-30 13:11:29,536 - INFO - aiogram.event - Update id=559761515 is handled. Duration 547 ms by bot id=8114865172
+2025-04-30 13:11:37,893 - INFO - aiogram.event - Update id=559761516 is not handled. Duration 15 ms by bot id=8114865172
+2025-04-30 13:11:37,893 - ERROR - aiogram.event - Cause exception while process update id=559761516 by bot id=8114865172
+ValidationError: 1 validation error for SendMessage
+text
+  Input should be a valid string [type=string_type, input_value=('Надішліть но... для донату.',), input_type=tuple]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Traceback (most recent call last):
+  File "C:\Users\User\PycharmProjects\hur_support_bot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\hur_support_bot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\hur_support_bot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\hur_support_bot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\hur_support_bot\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\hur_support_bot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\hur_support_bot\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\hur_support_bot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\hur_support_bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\hur_support_bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\hur_support_bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\hur_support_bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\hur_support_bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\hur_support_bot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\hur_support_bot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\hur_support_bot\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\hur_support_bot\bot\handlers\direction.py", line 92, in process_admin_choice
+    await message.answer(SEND_NEW_DONATE_DESCRIPTION_TEXT, reply_markup=get_donation_message_update_menu())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\hur_support_bot\.venv\Lib\site-packages\aiogram\types\message.py", line 2074, in answer
+    return SendMessage(
+           ^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\hur_support_bot\.venv\Lib\site-packages\pydantic\main.py", line 253, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for SendMessage
+text
+  Input should be a valid string [type=string_type, input_value=('Надішліть но... для донату.',), input_type=tuple]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+2025-04-30 13:13:02,883 - INFO - aiogram.dispatcher - Polling stopped
+2025-04-30 13:13:03,151 - INFO - bot.database.db - Database connection pool closed successfully
+2025-04-30 13:13:03,153 - INFO - aiogram.dispatcher - Polling stopped for bot @testkotyk21_bot id=8114865172 - 'testbot'
+2025-04-30 13:13:08,088 - INFO - bot.database.db - Database connection pool initialized successfully
+2025-04-30 13:13:08,096 - INFO - bot.database.db - Successfully initialized database.
+2025-04-30 13:13:08,099 - INFO - aiogram.dispatcher - Start polling
+2025-04-30 13:13:08,456 - INFO - aiogram.dispatcher - Run polling for bot @testkotyk21_bot id=8114865172 - 'testbot'
+2025-04-30 13:13:09,377 - INFO - aiogram.event - Update id=559761517 is handled. Duration 577 ms by bot id=8114865172
+2025-04-30 13:13:11,015 - INFO - aiogram.event - Update id=559761518 is handled. Duration 171 ms by bot id=8114865172
+2025-04-30 13:13:12,392 - INFO - aiogram.event - Update id=559761519 is handled. Duration 327 ms by bot id=8114865172
+2025-04-30 13:13:14,763 - INFO - bot.database.db - Successfully updated value by key.
+2025-04-30 13:13:14,946 - INFO - aiogram.event - Update id=559761520 is handled. Duration 202 ms by bot id=8114865172
+2025-04-30 13:13:18,036 - INFO - aiogram.event - Update id=559761521 is handled. Duration 125 ms by bot id=8114865172
+2025-04-30 13:13:35,041 - INFO - bot.database.db - Successfully updated value by key.
+2025-04-30 13:13:35,101 - INFO - aiogram.event - Update id=559761522 is handled. Duration 77 ms by bot id=8114865172
+2025-04-30 13:13:49,448 - INFO - aiogram.dispatcher - Polling stopped
+2025-04-30 13:13:49,712 - INFO - bot.database.db - Database connection pool closed successfully
+2025-04-30 13:13:49,713 - INFO - aiogram.dispatcher - Polling stopped for bot @testkotyk21_bot id=8114865172 - 'testbot'
+2025-04-30 13:15:31,894 - INFO - bot.database.db - Database connection pool initialized successfully
+2025-04-30 13:15:31,899 - INFO - bot.database.db - Successfully initialized database.
+2025-04-30 13:15:31,901 - INFO - aiogram.dispatcher - Start polling
+2025-04-30 13:15:32,433 - INFO - aiogram.dispatcher - Run polling for bot @testkotyk21_bot id=8114865172 - 'testbot'
+2025-04-30 13:15:43,193 - INFO - aiogram.event - Update id=559761523 is handled. Duration 469 ms by bot id=8114865172
+2025-04-30 13:15:49,430 - INFO - aiogram.event - Update id=559761524 is handled. Duration 500 ms by bot id=8114865172
+2025-04-30 13:16:19,377 - INFO - aiogram.dispatcher - Polling stopped
+2025-04-30 13:16:19,643 - INFO - bot.database.db - Database connection pool closed successfully
+2025-04-30 13:16:19,644 - INFO - aiogram.dispatcher - Polling stopped for bot @testkotyk21_bot id=8114865172 - 'testbot'
+2025-04-30 13:16:23,679 - INFO - bot.database.db - Database connection pool initialized successfully
+2025-04-30 13:16:23,684 - INFO - bot.database.db - Successfully initialized database.
+2025-04-30 13:16:23,686 - INFO - aiogram.dispatcher - Start polling
+2025-04-30 13:16:24,554 - INFO - aiogram.dispatcher - Run polling for bot @testkotyk21_bot id=8114865172 - 'testbot'
+2025-04-30 13:16:31,840 - INFO - aiogram.event - Update id=559761525 is handled. Duration 516 ms by bot id=8114865172
+2025-04-30 13:16:34,167 - INFO - aiogram.dispatcher - Polling stopped
+2025-04-30 13:16:34,439 - INFO - bot.database.db - Database connection pool closed successfully
+2025-04-30 13:16:34,440 - INFO - aiogram.dispatcher - Polling stopped for bot @testkotyk21_bot id=8114865172 - 'testbot'
+2025-04-30 13:22:42,785 - INFO - bot.database.db - Database connection pool initialized successfully
+2025-04-30 13:22:42,791 - INFO - bot.database.db - Successfully initialized database.
+2025-04-30 13:22:42,792 - INFO - aiogram.dispatcher - Start polling
+2025-04-30 13:22:44,360 - INFO - aiogram.dispatcher - Run polling for bot @testkotyk21_bot id=8114865172 - 'testbot'
+2025-04-30 13:22:45,948 - INFO - aiogram.event - Update id=559761526 is handled. Duration 687 ms by bot id=8114865172
+2025-04-30 13:22:48,454 - INFO - aiogram.event - Update id=559761527 is handled. Duration 828 ms by bot id=8114865172
+2025-04-30 13:22:50,323 - INFO - bot.database.db - Successfully fetched all appeals.
+2025-04-30 13:22:50,809 - INFO - aiogram.event - Update id=559761528 is handled. Duration 515 ms by bot id=8114865172
+2025-04-30 13:23:01,674 - INFO - bot.database.db - Successfully fetched last 10 appeals.
+2025-04-30 13:23:01,969 - INFO - aiogram.event - Update id=559761529 is handled. Duration 297 ms by bot id=8114865172
+2025-04-30 13:23:26,449 - INFO - aiogram.dispatcher - Polling stopped
+2025-04-30 13:23:26,709 - INFO - bot.database.db - Database connection pool closed successfully
+2025-04-30 13:23:26,710 - INFO - aiogram.dispatcher - Polling stopped for bot @testkotyk21_bot id=8114865172 - 'testbot'
+2025-04-30 13:23:48,752 - INFO - bot.database.db - Database connection pool initialized successfully
+2025-04-30 13:23:48,759 - INFO - bot.database.db - Successfully initialized database.
+2025-04-30 13:23:48,761 - INFO - aiogram.dispatcher - Start polling
+2025-04-30 13:23:49,214 - INFO - aiogram.dispatcher - Run polling for bot @testkotyk21_bot id=8114865172 - 'testbot'
+2025-04-30 13:23:49,921 - INFO - aiogram.event - Update id=559761530 is handled. Duration 297 ms by bot id=8114865172
+2025-04-30 13:23:59,723 - INFO - aiogram.event - Update id=559761531 is handled. Duration 311 ms by bot id=8114865172
+2025-04-30 13:24:01,011 - INFO - bot.database.db - Successfully fetched all appeals.
+2025-04-30 13:24:01,286 - INFO - aiogram.event - Update id=559761532 is handled. Duration 297 ms by bot id=8114865172
+2025-04-30 13:24:03,107 - INFO - bot.database.db - Successfully fetched last 10 appeals.
+2025-04-30 13:24:03,217 - INFO - aiogram.event - Update id=559761533 is handled. Duration 110 ms by bot id=8114865172
+2025-04-30 13:24:07,321 - INFO - aiogram.dispatcher - Polling stopped
+2025-04-30 13:24:07,600 - INFO - bot.database.db - Database connection pool closed successfully
+2025-04-30 13:24:07,601 - INFO - aiogram.dispatcher - Polling stopped for bot @testkotyk21_bot id=8114865172 - 'testbot'
+2025-04-30 13:27:02,836 - INFO - bot.database.db - Database connection pool initialized successfully
+2025-04-30 13:27:02,844 - INFO - bot.database.db - Successfully initialized database.
+2025-04-30 13:27:02,846 - INFO - aiogram.dispatcher - Start polling
+2025-04-30 13:27:02,953 - INFO - aiogram.dispatcher - Run polling for bot @testkotyk21_bot id=8114865172 - 'testbot'
+2025-04-30 13:27:03,191 - INFO - aiogram.event - Update id=559761534 is handled. Duration 155 ms by bot id=8114865172
+2025-04-30 13:27:09,612 - INFO - aiogram.event - Update id=559761535 is handled. Duration 109 ms by bot id=8114865172
+2025-04-30 13:27:16,618 - INFO - aiogram.dispatcher - Polling stopped
+2025-04-30 13:27:16,891 - INFO - bot.database.db - Database connection pool closed successfully
+2025-04-30 13:27:16,892 - INFO - aiogram.dispatcher - Polling stopped for bot @testkotyk21_bot id=8114865172 - 'testbot'
+2025-04-30 13:47:18,144 - INFO - bot.database.db - Database connection pool initialized successfully
+2025-04-30 13:47:18,169 - INFO - bot.database.db - Successfully initialized database.
+2025-04-30 13:47:18,180 - INFO - aiogram.dispatcher - Start polling
+2025-04-30 13:47:18,307 - INFO - aiogram.dispatcher - Run polling for bot @testkotyk21_bot id=8114865172 - 'testbot'
+2025-04-30 13:47:18,555 - INFO - aiogram.event - Update id=559761536 is handled. Duration 187 ms by bot id=8114865172
+2025-04-30 13:47:42,421 - INFO - aiogram.event - Update id=559761537 is handled. Duration 109 ms by bot id=8114865172
+2025-04-30 13:47:53,236 - INFO - aiogram.event - Update id=559761538 is handled. Duration 62 ms by bot id=8114865172
+2025-04-30 13:47:56,538 - INFO - aiogram.event - Update id=559761539 is handled. Duration 109 ms by bot id=8114865172
+2025-04-30 13:47:57,738 - INFO - aiogram.event - Update id=559761540 is handled. Duration 77 ms by bot id=8114865172
+2025-04-30 13:48:01,072 - INFO - bot.database.db - Successfully fetched all appeals.
+2025-04-30 13:48:01,240 - INFO - aiogram.event - Update id=559761541 is handled. Duration 202 ms by bot id=8114865172
+2025-04-30 13:48:02,167 - INFO - bot.database.db - Successfully fetched last 10 appeals.
+2025-04-30 13:48:02,234 - INFO - aiogram.event - Update id=559761542 is handled. Duration 61 ms by bot id=8114865172
+2025-04-30 13:48:08,418 - INFO - aiogram.event - Update id=559761543 is handled. Duration 94 ms by bot id=8114865172
+2025-04-30 13:48:12,759 - INFO - bot.database.db - Successfully updated value by key.
+2025-04-30 13:48:12,886 - INFO - aiogram.event - Update id=559761544 is handled. Duration 140 ms by bot id=8114865172
+2025-04-30 13:48:15,609 - INFO - aiogram.event - Update id=559761545 is handled. Duration 61 ms by bot id=8114865172
+2025-04-30 13:48:19,437 - INFO - bot.database.db - Successfully updated value by key.
+2025-04-30 13:48:19,512 - INFO - aiogram.event - Update id=559761546 is handled. Duration 77 ms by bot id=8114865172
+2025-04-30 13:48:21,671 - INFO - aiogram.event - Update id=559761547 is handled. Duration 94 ms by bot id=8114865172
+2025-04-30 13:48:23,097 - INFO - aiogram.event - Update id=559761548 is handled. Duration 108 ms by bot id=8114865172
+2025-04-30 13:48:25,309 - INFO - aiogram.event - Update id=559761549 is handled. Duration 62 ms by bot id=8114865172
+2025-04-30 13:48:26,818 - INFO - bot.database.db - Successfully returned value by key.
+2025-04-30 13:48:26,822 - INFO - bot.database.db - Successfully returned value by key.
+2025-04-30 13:48:27,159 - INFO - aiogram.event - Update id=559761550 is handled. Duration 359 ms by bot id=8114865172
+2025-04-30 13:48:34,149 - INFO - aiogram.event - Update id=559761551 is handled. Duration 61 ms by bot id=8114865172
+2025-04-30 13:48:35,508 - INFO - aiogram.event - Update id=559761552 is handled. Duration 109 ms by bot id=8114865172
+2025-04-30 13:48:38,023 - INFO - aiogram.event - Update id=559761553 is handled. Duration 140 ms by bot id=8114865172
+2025-04-30 13:48:51,373 - INFO - bot.database.db - Successfully updated value by key.
+2025-04-30 13:48:51,433 - INFO - aiogram.event - Update id=559761554 is handled. Duration 62 ms by bot id=8114865172
+2025-04-30 13:48:53,911 - INFO - aiogram.event - Update id=559761555 is handled. Duration 63 ms by bot id=8114865172
+2025-04-30 13:48:55,138 - INFO - bot.database.db - Successfully updated value by key.
+2025-04-30 13:48:55,194 - INFO - aiogram.event - Update id=559761556 is handled. Duration 62 ms by bot id=8114865172
+2025-04-30 13:48:57,651 - INFO - aiogram.event - Update id=559761557 is handled. Duration 47 ms by bot id=8114865172
+2025-04-30 13:48:58,933 - INFO - aiogram.event - Update id=559761558 is handled. Duration 78 ms by bot id=8114865172
+2025-04-30 13:49:00,074 - INFO - aiogram.event - Update id=559761559 is handled. Duration 77 ms by bot id=8114865172
+2025-04-30 13:49:01,774 - INFO - bot.database.db - Successfully returned value by key.
+2025-04-30 13:49:01,778 - INFO - bot.database.db - Successfully returned value by key.
+2025-04-30 13:49:01,981 - INFO - aiogram.event - Update id=559761560 is handled. Duration 202 ms by bot id=8114865172
+2025-04-30 13:49:07,315 - INFO - aiogram.event - Update id=559761561 is handled. Duration 94 ms by bot id=8114865172
+2025-04-30 13:49:09,601 - INFO - aiogram.event - Update id=559761562 is handled. Duration 186 ms by bot id=8114865172
+2025-04-30 13:49:10,690 - INFO - aiogram.event - Update id=559761563 is handled. Duration 62 ms by bot id=8114865172
+2025-04-30 13:49:19,569 - INFO - aiogram.event - Update id=559761564 is handled. Duration 62 ms by bot id=8114865172
+2025-04-30 13:49:32,896 - INFO - aiogram.event - Update id=559761565 is handled. Duration 77 ms by bot id=8114865172
+2025-04-30 13:50:14,182 - INFO - aiogram.dispatcher - Polling stopped
+2025-04-30 13:50:14,463 - INFO - bot.database.db - Database connection pool closed successfully
+2025-04-30 13:50:14,464 - INFO - aiogram.dispatcher - Polling stopped for bot @testkotyk21_bot id=8114865172 - 'testbot'
