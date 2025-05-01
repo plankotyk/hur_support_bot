@@ -2,7 +2,7 @@
 ![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
 ![Fly.io](https://img.shields.io/badge/deployed-Fly.io-orange.svg)
 
-# Hur Support Bot
+# HUR Support Bot
 A Telegram bot built with Python and the `aiogram` library, deployed on Fly.io. The bot provides support functionality (e.g., handling user queries, providing directions) and uses a modular structure for maintainability.
 
 ## Features
