@@ -9,11 +9,14 @@ from config.config import BOT_TOKEN
 
 log_handler = TimedRotatingFileHandler("bot.log", when="D", interval=3, backupCount=3)
 log_formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(name)s - %(message)s')
+
 console_handler = logging.StreamHandler()
+console_handler.setFormatter(log_formatter)
 
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
 logger.addHandler(log_handler)
+logger.addHandler(console_handler)
 
 async def main():
     logger.info("Starting application...")
