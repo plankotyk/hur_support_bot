@@ -1,2 +1,6 @@
 .env
 bot.log
+fly.toml
+Procfile
+.dockerignore
+fly-deploy.yml
