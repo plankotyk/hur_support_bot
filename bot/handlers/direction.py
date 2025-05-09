@@ -1,4 +1,5 @@
 import logging
+import smtplib
 from datetime import datetime
 
 import asyncpg
@@ -19,7 +20,7 @@ from bot.keyboards.other_menu import get_other_menu
 from bot.keyboards.start_menu import get_start_menu
 from bot.states.support_form import SupportForm
 from bot.database.db import save_appeal, get_all_appeals, get_last_10_appeals, update_value_by_key, get_value_by_key
-from bot.helpers.helpers import get_user_link, notify_channel_about_appeal
+from bot.helpers.helpers import get_user_link, notify_email_about_appeal
 from uuid import uuid4
 
 from config.config import ADMIN_IDS
@@ -196,7 +197,7 @@ async def process_post_added_appeal_choice(message: Message, state: FSMContext):
         await message.answer(UNEXPECTED_EXCEPTION_TEXT)
 
 @router.message(SupportForm.waiting_for_humanitarian_help)
-async def process_humanitarian_help(message: Message, state: FSMContext, bot: Bot):
+async def process_humanitarian_help(message: Message, state: FSMContext):
     try:
         if message.text == GO_BACK_BUTTON:
             await message.answer(CHOOSE_DIRECTION_TEXT, reply_markup=get_main_menu())
@@ -215,9 +216,13 @@ async def process_humanitarian_help(message: Message, state: FSMContext, bot: Bo
 
             await save_appeal(appeal)
 
-            await notify_channel_about_appeal(bot, appeal)
+            await notify_email_about_appeal(appeal)
             await message.answer(THANK_YOU_POST_APPEAL_TEXT(appeal.id[:8]), reply_markup=get_post_added_appeal_menu())
             await state.set_state(SupportForm.waiting_for_post_added_appeal_choice)
+    except (smtplib.SMTPAuthenticationError, smtplib.SMTPConnectError,
+        smtplib.SMTPRecipientsRefused, smtplib.SMTPException) as e:
+        logger.error(f"SMTP error: {e}")
+        await message.answer(EXCEPTION_TEXT)
     except TelegramAPIError as e:
         logger.error(f"Telegram API error in process_humanitarian_help: {e}")
         await message.answer(EXCEPTION_TEXT)
@@ -263,7 +268,7 @@ async def process_military_choice(message: Message, state: FSMContext):
 
 
 @router.message(SupportForm.waiting_for_military_help)
-async def process_military_help(message: Message, state: FSMContext, bot: Bot):
+async def process_military_help(message: Message, state: FSMContext):
     try:
         if message.text == GO_BACK_BUTTON:
             await message.answer(MILITARY_DIRECTION_DESCRIPTION_TEXT, reply_markup=get_military_menu())
@@ -282,7 +287,7 @@ async def process_military_help(message: Message, state: FSMContext, bot: Bot):
 
             await save_appeal(appeal)
 
-            await notify_channel_about_appeal(bot, appeal)
+            await notify_email_about_appeal(appeal)
             await message.answer(THANK_YOU_POST_APPEAL_TEXT(appeal.id[:8]),
                                  reply_markup=get_post_added_appeal_menu())
             await state.set_state(SupportForm.waiting_for_post_added_appeal_choice)
@@ -298,7 +303,7 @@ async def process_military_help(message: Message, state: FSMContext, bot: Bot):
 
 
 @router.message(SupportForm.waiting_for_other_help)
-async def process_other_help(message: Message, state: FSMContext, bot: Bot):
+async def process_other_help(message: Message, state: FSMContext):
     try:
         if message.text == GO_BACK_BUTTON:
             await message.answer(CHOOSE_DIRECTION_TEXT, reply_markup=get_main_menu())
@@ -317,7 +322,7 @@ async def process_other_help(message: Message, state: FSMContext, bot: Bot):
 
             await save_appeal(appeal)
 
-            await notify_channel_about_appeal(bot, appeal)
+            await notify_email_about_appeal(appeal)
             await message.answer(THANK_YOU_POST_APPEAL_TEXT(appeal.id[:8]), reply_markup=get_post_added_appeal_menu())
             await state.set_state(SupportForm.waiting_for_post_added_appeal_choice)
     except TelegramAPIError as e:
