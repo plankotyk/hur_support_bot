@@ -39,12 +39,16 @@ async def notify_channel_about_appeal(bot, appeal: AppealDTO):
         logger.info(f"Successfully notified about appeal {appeal.id} via telegram")
     except TelegramForbiddenError as e:
         logger.error(f"Cannot send message to channel {ADMIN_CHANNEL_ID}: Bot is blocked or lacks permission - {e}")
+        raise
     except TelegramBadRequest as e:
         logger.error(f"Invalid request to channel {ADMIN_CHANNEL_ID} for appeal {appeal.id}: {e}")
+        raise
     except TelegramAPIError as e:
         logger.error(f"Telegram API error for appeal {appeal.id}: {e}")
+        raise
     except Exception as e:
         logger.error(f"Unexpected error notifying about appeal {appeal.id} via telegram: {e}")
+        raise
 
 
 async def notify_email_about_appeal(appeal: AppealDTO):

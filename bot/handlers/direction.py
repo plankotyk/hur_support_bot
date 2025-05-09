@@ -291,6 +291,10 @@ async def process_military_help(message: Message, state: FSMContext):
             await message.answer(THANK_YOU_POST_APPEAL_TEXT(appeal.id[:8]),
                                  reply_markup=get_post_added_appeal_menu())
             await state.set_state(SupportForm.waiting_for_post_added_appeal_choice)
+    except (smtplib.SMTPAuthenticationError, smtplib.SMTPConnectError,
+        smtplib.SMTPRecipientsRefused, smtplib.SMTPException) as e:
+        logger.error(f"SMTP error: {e}")
+        await message.answer(EXCEPTION_TEXT)
     except TelegramAPIError as e:
         logger.error(f"Telegram API error in process_military_help: {e}")
         await message.answer(EXCEPTION_TEXT)
@@ -325,6 +329,10 @@ async def process_other_help(message: Message, state: FSMContext):
             await notify_email_about_appeal(appeal)
             await message.answer(THANK_YOU_POST_APPEAL_TEXT(appeal.id[:8]), reply_markup=get_post_added_appeal_menu())
             await state.set_state(SupportForm.waiting_for_post_added_appeal_choice)
+    except (smtplib.SMTPAuthenticationError, smtplib.SMTPConnectError,
+        smtplib.SMTPRecipientsRefused, smtplib.SMTPException) as e:
+        logger.error(f"SMTP error: {e}")
+        await message.answer(EXCEPTION_TEXT)
     except TelegramAPIError as e:
         logger.error(f"Telegram API error in process_other_help: {e}")
         await message.answer(EXCEPTION_TEXT)
